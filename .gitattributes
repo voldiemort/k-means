@@ -1,0 +1,9 @@
+# Keep algorithm source fingerprints identical across operating systems.
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+*.npy binary
+*.png binary
+*.pdf binary
+*.docx binary

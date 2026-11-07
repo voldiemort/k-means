@@ -1,0 +1,334 @@
+{
+  "name": "main",
+  "master_seed": 42342026,
+  "datasets_per_setting": 20,
+  "initializations": 100,
+  "max_iterations": 300,
+  "tolerance": 1e-10,
+  "settings": [
+    {
+      "id": "uniform-k4",
+      "family": "uniform",
+      "n": 500,
+      "k": 4,
+      "parameters": {
+        "low": -16,
+        "high": 16
+      }
+    },
+    {
+      "id": "uniform-k8",
+      "family": "uniform",
+      "n": 500,
+      "k": 8,
+      "parameters": {
+        "low": -16,
+        "high": 16
+      }
+    },
+    {
+      "id": "balanced-k2",
+      "family": "balanced",
+      "n": 500,
+      "k": 2,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    },
+    {
+      "id": "balanced-k4",
+      "family": "balanced",
+      "n": 500,
+      "k": 4,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    },
+    {
+      "id": "balanced-k8",
+      "family": "balanced",
+      "n": 500,
+      "k": 8,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    },
+    {
+      "id": "balanced-k16",
+      "family": "balanced",
+      "n": 500,
+      "k": 16,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    },
+    {
+      "id": "overlapping-gap1-k4",
+      "family": "overlapping",
+      "n": 500,
+      "k": 4,
+      "parameters": {
+        "gap": 1,
+        "std": 1
+      }
+    },
+    {
+      "id": "overlapping-gap2-k4",
+      "family": "overlapping",
+      "n": 500,
+      "k": 4,
+      "parameters": {
+        "gap": 2,
+        "std": 1
+      }
+    },
+    {
+      "id": "overlapping-gap4-k4",
+      "family": "overlapping",
+      "n": 500,
+      "k": 4,
+      "parameters": {
+        "gap": 4,
+        "std": 1
+      }
+    },
+    {
+      "id": "unequal-sizes-ratio2-k4",
+      "family": "unequal_sizes",
+      "n": 500,
+      "k": 4,
+      "parameters": {
+        "gap": 8,
+        "std": 1,
+        "size_ratio": 2
+      }
+    },
+    {
+      "id": "unequal-sizes-ratio8-k4",
+      "family": "unequal_sizes",
+      "n": 500,
+      "k": 4,
+      "parameters": {
+        "gap": 8,
+        "std": 1,
+        "size_ratio": 8
+      }
+    },
+    {
+      "id": "unequal-sizes-ratio32-k4",
+      "family": "unequal_sizes",
+      "n": 500,
+      "k": 4,
+      "parameters": {
+        "gap": 8,
+        "std": 1,
+        "size_ratio": 32
+      }
+    },
+    {
+      "id": "unequal-spreads-ratio2-k4",
+      "family": "unequal_spreads",
+      "n": 500,
+      "k": 4,
+      "parameters": {
+        "gap": 4,
+        "std": 1,
+        "spread_ratio": 2
+      }
+    },
+    {
+      "id": "unequal-spreads-ratio8-k4",
+      "family": "unequal_spreads",
+      "n": 500,
+      "k": 4,
+      "parameters": {
+        "gap": 4,
+        "std": 1,
+        "spread_ratio": 8
+      }
+    },
+    {
+      "id": "unequal-spreads-ratio32-k4",
+      "family": "unequal_spreads",
+      "n": 500,
+      "k": 4,
+      "parameters": {
+        "gap": 4,
+        "std": 1,
+        "spread_ratio": 32
+      }
+    },
+    {
+      "id": "outliers-distance8-k4",
+      "family": "outliers",
+      "n": 500,
+      "k": 4,
+      "parameters": {
+        "gap": 8,
+        "std": 1,
+        "outlier_fraction": 0.02,
+        "outlier_distance": 8
+      }
+    },
+    {
+      "id": "outliers-distance24-k4",
+      "family": "outliers",
+      "n": 500,
+      "k": 4,
+      "parameters": {
+        "gap": 8,
+        "std": 1,
+        "outlier_fraction": 0.02,
+        "outlier_distance": 24
+      }
+    },
+    {
+      "id": "outliers-distance64-k4",
+      "family": "outliers",
+      "n": 500,
+      "k": 4,
+      "parameters": {
+        "gap": 8,
+        "std": 1,
+        "outlier_fraction": 0.02,
+        "outlier_distance": 64
+      }
+    },
+    {
+      "id": "overlapping-gap1-k8",
+      "family": "overlapping",
+      "n": 500,
+      "k": 8,
+      "parameters": {
+        "gap": 1,
+        "std": 1
+      }
+    },
+    {
+      "id": "overlapping-gap2-k8",
+      "family": "overlapping",
+      "n": 500,
+      "k": 8,
+      "parameters": {
+        "gap": 2,
+        "std": 1
+      }
+    },
+    {
+      "id": "overlapping-gap4-k8",
+      "family": "overlapping",
+      "n": 500,
+      "k": 8,
+      "parameters": {
+        "gap": 4,
+        "std": 1
+      }
+    },
+    {
+      "id": "unequal-sizes-ratio2-k8",
+      "family": "unequal_sizes",
+      "n": 500,
+      "k": 8,
+      "parameters": {
+        "gap": 8,
+        "std": 1,
+        "size_ratio": 2
+      }
+    },
+    {
+      "id": "unequal-sizes-ratio8-k8",
+      "family": "unequal_sizes",
+      "n": 500,
+      "k": 8,
+      "parameters": {
+        "gap": 8,
+        "std": 1,
+        "size_ratio": 8
+      }
+    },
+    {
+      "id": "unequal-sizes-ratio32-k8",
+      "family": "unequal_sizes",
+      "n": 500,
+      "k": 8,
+      "parameters": {
+        "gap": 8,
+        "std": 1,
+        "size_ratio": 32
+      }
+    },
+    {
+      "id": "unequal-spreads-ratio2-k8",
+      "family": "unequal_spreads",
+      "n": 500,
+      "k": 8,
+      "parameters": {
+        "gap": 4,
+        "std": 1,
+        "spread_ratio": 2
+      }
+    },
+    {
+      "id": "unequal-spreads-ratio8-k8",
+      "family": "unequal_spreads",
+      "n": 500,
+      "k": 8,
+      "parameters": {
+        "gap": 4,
+        "std": 1,
+        "spread_ratio": 8
+      }
+    },
+    {
+      "id": "unequal-spreads-ratio32-k8",
+      "family": "unequal_spreads",
+      "n": 500,
+      "k": 8,
+      "parameters": {
+        "gap": 4,
+        "std": 1,
+        "spread_ratio": 32
+      }
+    },
+    {
+      "id": "outliers-distance8-k8",
+      "family": "outliers",
+      "n": 500,
+      "k": 8,
+      "parameters": {
+        "gap": 8,
+        "std": 1,
+        "outlier_fraction": 0.02,
+        "outlier_distance": 8
+      }
+    },
+    {
+      "id": "outliers-distance24-k8",
+      "family": "outliers",
+      "n": 500,
+      "k": 8,
+      "parameters": {
+        "gap": 8,
+        "std": 1,
+        "outlier_fraction": 0.02,
+        "outlier_distance": 24
+      }
+    },
+    {
+      "id": "outliers-distance64-k8",
+      "family": "outliers",
+      "n": 500,
+      "k": 8,
+      "parameters": {
+        "gap": 8,
+        "std": 1,
+        "outlier_fraction": 0.02,
+        "outlier_distance": 64
+      }
+    }
+  ]
+}

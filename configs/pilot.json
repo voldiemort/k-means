@@ -1,0 +1,130 @@
+{
+  "name": "pilot",
+  "master_seed": 42342026,
+  "datasets_per_setting": 1,
+  "initializations": 5,
+  "max_iterations": 300,
+  "tolerance": 1e-10,
+  "settings": [
+    {
+      "id": "balanced-n200-k2",
+      "family": "balanced",
+      "n": 200,
+      "k": 2,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    },
+    {
+      "id": "balanced-n200-k4",
+      "family": "balanced",
+      "n": 200,
+      "k": 4,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    },
+    {
+      "id": "balanced-n200-k8",
+      "family": "balanced",
+      "n": 200,
+      "k": 8,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    },
+    {
+      "id": "balanced-n200-k16",
+      "family": "balanced",
+      "n": 200,
+      "k": 16,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    },
+    {
+      "id": "balanced-n500-k2",
+      "family": "balanced",
+      "n": 500,
+      "k": 2,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    },
+    {
+      "id": "balanced-n500-k4",
+      "family": "balanced",
+      "n": 500,
+      "k": 4,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    },
+    {
+      "id": "balanced-n500-k8",
+      "family": "balanced",
+      "n": 500,
+      "k": 8,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    },
+    {
+      "id": "balanced-n500-k16",
+      "family": "balanced",
+      "n": 500,
+      "k": 16,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    },
+    {
+      "id": "balanced-n1000-k2",
+      "family": "balanced",
+      "n": 1000,
+      "k": 2,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    },
+    {
+      "id": "balanced-n1000-k4",
+      "family": "balanced",
+      "n": 1000,
+      "k": 4,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    },
+    {
+      "id": "balanced-n1000-k8",
+      "family": "balanced",
+      "n": 1000,
+      "k": 8,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    },
+    {
+      "id": "balanced-n1000-k16",
+      "family": "balanced",
+      "n": 1000,
+      "k": 16,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    }
+  ]
+}

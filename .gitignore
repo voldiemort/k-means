@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.local-deps/
+results/
+data/
+datasets/
+report/
+reports/
+# Reports and their compiled output belong outside this source repository.
+*.tex
+*.bib
+*.pdf
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+.coverage
+.pytest_cache/

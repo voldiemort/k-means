@@ -1,0 +1,74 @@
+{
+  "name": "smoke",
+  "master_seed": 42342026,
+  "datasets_per_setting": 2,
+  "initializations": 3,
+  "max_iterations": 300,
+  "tolerance": 1e-10,
+  "settings": [
+    {
+      "id": "uniform",
+      "family": "uniform",
+      "n": 40,
+      "k": 4,
+      "parameters": {
+        "low": -16,
+        "high": 16
+      }
+    },
+    {
+      "id": "balanced",
+      "family": "balanced",
+      "n": 40,
+      "k": 4,
+      "parameters": {
+        "gap": 8,
+        "std": 1
+      }
+    },
+    {
+      "id": "overlapping",
+      "family": "overlapping",
+      "n": 40,
+      "k": 4,
+      "parameters": {
+        "gap": 2,
+        "std": 1
+      }
+    },
+    {
+      "id": "unequal-sizes",
+      "family": "unequal_sizes",
+      "n": 40,
+      "k": 4,
+      "parameters": {
+        "gap": 8,
+        "std": 1,
+        "size_ratio": 8
+      }
+    },
+    {
+      "id": "unequal-spreads",
+      "family": "unequal_spreads",
+      "n": 40,
+      "k": 4,
+      "parameters": {
+        "gap": 4,
+        "std": 1,
+        "spread_ratio": 8
+      }
+    },
+    {
+      "id": "outliers",
+      "family": "outliers",
+      "n": 40,
+      "k": 4,
+      "parameters": {
+        "gap": 8,
+        "std": 1,
+        "outlier_fraction": 0.1,
+        "outlier_distance": 24
+      }
+    }
+  ]
+}
